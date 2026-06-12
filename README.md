@@ -6,7 +6,7 @@ Built using Python, NewsAPI, Groq, and Streamlit.
 
 ## 📸 Demo
 
-![AI News Briefing Agent](demo.png)
+![AI News Briefing Agent](screenshot.png)
 
 ## 🚀 Features
 
