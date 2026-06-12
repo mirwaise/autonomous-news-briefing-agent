@@ -4,97 +4,28 @@ An AI-powered news intelligence application that automatically gathers the lates
 
 Built using Python, NewsAPI, Groq, and Streamlit.
 
----
+## 📸 Demo
+
+![AI News Briefing Agent](demo.png)
 
 ## 🚀 Features
 
-* Fetch real-time news from NewsAPI
-* Extract relevant headlines automatically
-* Generate AI-powered executive briefings
-* Save briefings as text files
-* Interactive Streamlit web interface
-* Download reports directly from the browser
-
----
+- Fetches live news using NewsAPI
+- Extracts and processes top headlines
+- Generates AI-powered executive briefings
+- Streamlit web interface
+- Download briefing as text file
 
 ## 🛠️ Tech Stack
 
-* Python
-* NewsAPI
-* Groq API
-* Llama 3.3 70B
-* Streamlit
-* Requests
+- Python
+- Streamlit
+- Groq (Llama 3)
+- NewsAPI
+- Requests
 
----
+## ▶️ Run Locally
 
-## 📂 Workflow
-
-User Topic
-↓
-NewsAPI
-↓
-Latest Headlines
-↓
-Groq Llama 3
-↓
-Executive Briefing
-↓
-Download Report
-
----
-
-## 💡 Example
-
-Input:
-
-Artificial Intelligence
-
-Output:
-
-1. Major AI companies continue investing heavily in foundation models.
-
-2. Enterprise AI adoption is accelerating across industries.
-
-3. Regulatory discussions around AI governance continue globally.
-
----
-
-## 📸 Project Components
-
-### CLI Version
-
-Generate news briefings directly from the terminal.
-
-### Streamlit Web App
-
-Generate and download briefings through a simple web interface.
-
----
-
-## 🎯 What I Learned
-
-* API Integration
-* News Data Processing
-* Prompt Engineering
-* LLM-Powered Summarization
-* Streamlit Development
-* AI Workflow Automation
-
----
-
-## 🔮 Future Improvements
-
-* Sentiment Analysis
-* Multi-source News Aggregation
-* Daily Automated Briefings
-* Email Delivery
-* Personalized Industry Monitoring
-
----
-
-## 👨‍💻 Author
-
-Mirwaise Khan
-
-AI Product Engineer focused on Python, RAG Systems, AI Automation, and Intelligent Applications.
+```bash
+pip install -r requirements.txt
+streamlit run app_web.py
